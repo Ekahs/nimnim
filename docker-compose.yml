@@ -1,0 +1,10 @@
+version: "3.4"
+services:
+  app:
+    build:
+      context: ./docker/nim
+      dockerfile: Dockerfile
+    tty: true
+    privileged: true
+    volumes:
+      - ./workspace:/opt/nimnim
