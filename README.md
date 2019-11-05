@@ -1,0 +1,2 @@
+# nimnim
+Study Nim
