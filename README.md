@@ -9,7 +9,7 @@ PROJECT_NAME=example #Change here
 ## Project setup
 ```
 $ docker-compose up -d --build
-$ docker-compose run app nimble init
+$ docker-compose exec app nimble init
 ```
 
 ## Run nimble
