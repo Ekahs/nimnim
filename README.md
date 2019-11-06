@@ -1,8 +1,8 @@
 # (ノ)・ω・(ヾ)ﾆﾑﾆﾑ
 
 ## Change the project name
-
-```:.env
+Edit `.env` file
+```
 PROJECT_NAME=example #Change here
 ```
 
