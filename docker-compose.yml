@@ -1,4 +1,4 @@
-version: "3.4"
+version: "3.7"
 services:
   app:
     build:
@@ -7,4 +7,5 @@ services:
     tty: true
     privileged: true
     volumes:
-      - ./workspace:/opt/nimnim
+      - ./workspace:/opt/${PROJECT_NAME}
+    working_dir: /opt/${PROJECT_NAME}
