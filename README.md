@@ -14,5 +14,5 @@ $ docker-compose exec app nimble init
 
 ## Run nimble
 ```
-$ docker-compose run app nimble [Command]
+$ docker-compose exec app nimble [Command]
 ```
